@@ -12,7 +12,7 @@ const MovieList = ({ movies, navigation, banner, styles }) => {
             }
             renderItem={({ item }) => (
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("MovieDetail", { movie: item })}
+                    // onPress={() => navigation.navigate("MovieDetail", { movie: item })}
                     style={styles.movieItem}
                 >
                     <Image source={{ uri: item.image }} style={styles.movieImage} />
